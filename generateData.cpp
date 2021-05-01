@@ -14,9 +14,9 @@ int main()
         int n1 = (int)(2.0 * rand() / double(RAND_MAX));
         int n2 = (int)(2.0 * rand() / double(RAND_MAX));
         int t = n1 ^ n2; // this should be 1 or 0
-        //cout << "in: " << n1 << ".0 " << n2 << ".0" << endl;
-        //cout << "out: " << t << ".0" << endl;
+        cout << "in: " << n1 << ".0 " << n2 << ".0" << endl;
+        cout << "out: " << t << ".0" << endl;
     }
-    system("gen.exe > traindata.txt");
+    //system("gen.exe > traindata.txt");
     return 0;
 }
